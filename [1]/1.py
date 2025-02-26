@@ -123,13 +123,16 @@ if __name__ == "__main__":
         print("\n==== Summary of Results (Rounded as Required) ====")
         for key, value in results.items():
             print(f"{key}: {value}")
-#srs_mean: 50.6
-#srs_se: 6.8851
-#ci_upper: 64.6455
-#ci_lower: 36.5545
-#crs_mean: 50.6
-#crs_se: 7.6243
-#d_value: 1.1074
-#d_squared: 1.2263
-#roh: 0.2263
-#Neff: 13.0477
+
+'''
+srs_mean: 50.6
+srs_se: 6.8851
+ci_upper: 64.6455
+ci_lower: 36.5545
+crs_mean: 50.6
+crs_se: 7.6243
+d_value: 1.1074
+d_squared: 1.2263
+roh: 0.2263
+Neff: 13.0477
+'''

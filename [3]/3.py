@@ -87,7 +87,20 @@ first_10_predictions = (predictions[:10] >= 0.5).astype(int)  # Apply threshold 
 number_of_ones = np.sum(first_10_predictions)  # Count number of 1s in first 10 rows
 
 print(f"Number of ones in the first 10 rows of predictions (threshold=0.5): {int(number_of_ones)}")
-#N=100, alpha=0.1, lambda=0.1 Cost function (rounded up to 2 digits after floating point): 0.28 Optimal theta parameter maximum value (rounded up to 2 digits after floating point): 1.61
-#N=1000, alpha=0.2, lambda=1 Cost function (rounded up to 2 digits after floating point): 0.16 Optimal theta parameter maximum value (rounded up to 2 digits after floating point): 4.59
-#N=10000, alpha=0.3, lambda=10 Cost function (rounded up to 2 digits after floating point): 0.33 Optimal theta parameter maximum value (rounded up to 2 digits after floating point): 2.02
-#Number of ones in the first 10 rows of predictions (threshold=0.5): 6
+
+
+'''
+N=100, alpha=0.1, lambda=0.1
+Cost function (rounded up to 2 digits after floating point): 0.28
+Optimal theta parameter maximum value (rounded up to 2 digits after floating point): 1.61
+
+N=1000, alpha=0.2, lambda=1
+Cost function (rounded up to 2 digits after floating point): 0.16
+Optimal theta parameter maximum value (rounded up to 2 digits after floating point): 4.59
+
+N=10000, alpha=0.3, lambda=10
+Cost function (rounded up to 2 digits after floating point): 0.33
+Optimal theta parameter maximum value (rounded up to 2 digits after floating point): 2.02
+
+Number of ones in the first 10 rows of predictions (threshold=0.5): 6
+'''

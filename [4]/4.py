@@ -170,11 +170,11 @@ else:
 print(f"General Conclusion after 10000 epochs: {conclusion}")
 
 '''
-Final Predictions: [[0.5] [0.5]] 
-a4 = [0.5, 0.5] 
-a3_min = 0.999 
-W4_max = 0.15 
-W3_min = 0.19 
-Loss after 10000 epochs: 0.5 
+Final Predictions: [[0.5],[0.5]]
+a4 = [0.5, 0.5]
+a3_min = 0.999
+W4_max = 0.15
+W3_min = 0.19
+Loss after 10000 epochs: 0.5
 General Conclusion after 10000 epochs: NN predicts image of dog
 '''

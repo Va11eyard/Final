@@ -81,14 +81,16 @@ print("Cost Function (Round):", round(calculate_cost(X_normalized, y, n_1000_res
 print("Optimal Theta parameter (Round):", [round(x) for x in n_1000_results[0]])
 
 
-#n=10
-#Cost Function (Round): 895241
-#Optimal Theta parameter (Round): [2167, -54, 839, -47, -31, 1001, 1080, 436, 283]
+'''
+n=10
+Cost Function (Round): 895241
+Optimal Theta parameter (Round): [2167, -54, 839, -47, -31, 1001, 1080, 436, 283]
 
-#n=100
-#Cost Function (Round): 42271
-#Optimal Theta parameter (Round): [3328, 50, 230, 125, 192, 1244, 1897, 18, 63]
+n=100
+Cost Function (Round): 42271
+Optimal Theta parameter (Round): [3328, 50, 230, 125, 192, 1244, 1897, 18, 63]
 
-#n=1000
-#Cost Function (Round): 1261
-#Optimal Theta parameter (Round): [3328, -17, -520, 119, 228, 1231, 2651, -64, 200]
+n=1000
+Cost Function (Round): 1261
+Optimal Theta parameter (Round): [3328, -17, -520, 119, 228, 1231, 2651, -64, 200]
+'''
